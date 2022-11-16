@@ -15,5 +15,8 @@
   final Map<Graph.Vertex<T>, Integer> fScore = new HashMap<Graph.Vertex<T>,Integer>();
 
 #### 4. ¿Qué método habría que modificar para que la heurística representara la distancia aérea entre vértices?
+  Tendríamos que modificar el método 'aStar' de la clase AStar.java.
+  
+  public List<Graph.Edge<T>> aStar(Graph<T> graph, Graph.Vertex<T> start, Graph.Vertex<T> goal) {...}
 
 #### 5. ¿Realiza este método reevaluación de nudos cuando se encuentra una nueva ruta a un determinado vértice? Justifique la respuesta.
