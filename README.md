@@ -20,3 +20,5 @@
   public List<Graph.Edge<T>> aStar(Graph<T> graph, Graph.Vertex<T> start, Graph.Vertex<T> goal) {...}
 
 #### 5. ¿Realiza este método reevaluación de nudos cuando se encuentra una nueva ruta a un determinado vértice? Justifique la respuesta.
+  Sí, el método aStar reevalúa los nudos.
+  El método va a recorrer la lista abierta (bucle while) y va a ir guardando el mejor camino hasta el momento, es decir, que puede cambiar el camino si hay uno mejor.
