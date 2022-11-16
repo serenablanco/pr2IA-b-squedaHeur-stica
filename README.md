@@ -1,1 +1,1 @@
-# pr2IA-b-squedaHeur-stica
+# BÚSQUEDA HEURÍSTICA SIN ADVERSARIOS
